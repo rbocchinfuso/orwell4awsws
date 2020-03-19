@@ -1,0 +1,11 @@
+boto3
+json
+os
+os.path
+time
+csv
+configparser
+datetime
+pytz
+ISStreamer
+tqdm
