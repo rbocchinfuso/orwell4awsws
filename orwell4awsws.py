@@ -39,7 +39,7 @@ def createlogfile():
     utc_fileprefix = datetime.now(timezone('UTC'))
     est_fileprefix = utc_fileprefix.astimezone(timezone('US/Eastern'))
     logfileprefix = est_fileprefix.strftime(fileprefix_fmt)
-    dailylogfile = logfileprefix + '_' + config['local']['log_file'] + '.csv'
+    dailylogfile = config['local']['output_dir'] + logfileprefix + '_' + config['local']['log_file'] + '.csv'
     return (dailylogfile)
 
 def uworkin(doh): 

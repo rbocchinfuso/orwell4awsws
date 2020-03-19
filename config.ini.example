@@ -1,5 +1,6 @@
 [local]
 cycle_time = 300
+output_dir = /foo/bar/
 log_file = orwell4awsws_log
 
 [initalstate]
