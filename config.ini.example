@@ -1,0 +1,9 @@
+[local]
+cycle_time = 300
+log_file = orwell4awsws_log
+
+[initalstate]
+bucket_name = xxxxxxxx
+bucket_key = yyyyyyyy
+access_key = zzzzzzzz
+
