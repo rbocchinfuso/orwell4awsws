@@ -64,8 +64,8 @@ while True:
     est_date = est.strftime(date_fmt)
     est_time = est.strftime(time_fmt)
 
-    os.system('aws workspaces describe-workspaces --max-items=1000 > workspaces.json') 
-    os.system('aws workspaces describe-workspaces-connection-status --max-items=1000 > connections.json') 
+    # os.system('aws workspaces describe-workspaces --max-items=1000 > workspaces.json') 
+    # os.system('aws workspaces describe-workspaces-connection-status --max-items=1000 > connections.json') 
 
     log_file = createlogfile()
 

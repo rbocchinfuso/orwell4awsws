@@ -1,6 +1,9 @@
+aws-shell
 boto3
 configparser
 datetime
 pytz
 ISStreamer
 tqdm
+numpy
+pandas

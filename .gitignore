@@ -8,3 +8,5 @@
 *.sh
 # ignore bak files
 *.bak*
+# ignore html files
+*.html
