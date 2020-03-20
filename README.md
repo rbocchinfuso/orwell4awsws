@@ -11,7 +11,7 @@ Tooling to gather utilization data from AWS Workspaces via API, aggregate with p
 # Getting Started
 
 ## Prerequsites
-_Note: The way I like things, plenty of other options._
+_Note: The way I like things, plenty of other options and ways to do the same thing._
 - Minicond Python distro (https://docs.conda.io/en/latest/miniconda.html)
 - Nginx for publishing reports
 -- This is not an Nginx tutorial, but I suggest using fancy indexing which will likely require installing "nginx-extras".
@@ -20,8 +20,7 @@ _Note: The way I like things, plenty of other options._
 - If you want to stream live data you will streaming you will need an Initalstate account (https://www.initialstate.com/)
 _Note: Again lots of option here, I am only providing the option I utilzed._
 
-![alt text](https://imgur.com/a/0hq6nz7 "orwell4awsws streaming dashboard")
-![streamer dashboard](https://imgur.com/a/0hq6nz7 "orwell4awsws streaming dashboard")
+![streamer dashboard](https://photos.app.goo.gl/C71bNHSLjHubxP3k7 "orwell4awsws streaming dashboard")
 
 ## Installation 
 - Download code from GitHub
@@ -52,6 +51,17 @@ _Note: Initialstate information only required if you want to use the ISStreamer 
 ## Report generation cron job
 `0 * * * * python [PATH]/orwell4awsws/orwellpivot.py > [PATH]orwell4awsws/orwellpivot.log 2>&1`
 
+### Sample Reports Views
+![sample report](https://photos.app.goo.gl/qxaPJ76jbQYzgzUw9 "sample report views")
+
+
+## Todo
+- Quick hack so general code cleanup is in order.
+- Figure out how the heck to return more than 25 results from the Workspaces API so I can stop using the AWS CLI to grab JSON and start using boto3 and the AWS SDK.
+- Add logic for dev | test | prod and running in interactive or daemon mode.
+- Add matplotlib graphs.
+- Move from csv files to sqllite.
+- 
 
 ## Contributing
 
@@ -62,7 +72,7 @@ _Note: Initialstate information only required if you want to use the ISStreamer 
 5. Submit a pull request ツ
 
 ## History
--  version 0.1.0 (initial release) - 2020/03/19
+-  version 0.2.0 (initial release) - 2020/03/19
 
 ## Credits
 Rich Bocchinfuso <<rbocchinfuso@gmail.com>>
