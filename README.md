@@ -2,7 +2,7 @@
 
 
 # orwell4awsws
-![alt text](https://www.peaceproject.com/wp-content/uploads/LS255-In-Time-Of-Universal-Deceit-Bumper-Sticker.jpg?sfvrsn=74f89f35_1 "Orwell for AWS Workspaces")
+![orwell4awsws](https://www.peaceproject.com/wp-content/uploads/LS255-In-Time-Of-Universal-Deceit-Bumper-Sticker.jpg?sfvrsn=74f89f35_1 "Orwell for AWS Workspaces")
 
 
 ## Summary
@@ -21,6 +21,7 @@ _Note: The way I like things, plenty of other options._
 _Note: Again lots of option here, I am only providing the option I utilzed._
 
 ![alt text](https://imgur.com/a/0hq6nz7 "orwell4awsws streaming dashboard")
+![streamer dashboard](https://imgur.com/a/0hq6nz7 "orwell4awsws streaming dashboard")
 
 ## Installation 
 - Download code from GitHub
