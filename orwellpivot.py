@@ -50,10 +50,10 @@ df.head()
 print (df)
 
 
-# pivot by date, user, user_state
 df["user_state"] = df["user_state"].astype("category")
 df["user_state"].cat.set_categories(["ONLINE","OFFLINE"],inplace=True)
 
+# pivot by date, user, user_state
 table = pd.pivot_table(df.round(1),index=["log_datestamp","username"],values=["connection_hrs"], columns=["user_state"],aggfunc=[np.sum],fill_value=0)
 print (table)
 
@@ -63,9 +63,6 @@ with open('./reports/orwell_pivot_by_date.html', 'w') as f:
 
 
 # pivot by user, date, user_state
-df["user_state"] = df["user_state"].astype("category")
-df["user_state"].cat.set_categories(["ONLINE","OFFLINE"],inplace=True)
-
 table = pd.pivot_table(df.round(1),index=["username","log_datestamp"],values=["connection_hrs"], columns=["user_state"],aggfunc=[np.sum],fill_value=0)
 print (table)
 
@@ -75,9 +72,6 @@ with open('./reports/orwell_pivot_by_user.html', 'w') as f:
 
 
 # pivot by user, date, user_state alternate view
-df["user_state"] = df["user_state"].astype("category")
-df["user_state"].cat.set_categories(["ONLINE","OFFLINE"],inplace=True)
-
 table = pd.pivot_table(df.round(1),index=["username","user_state"],values=["connection_hrs"], columns=["log_datestamp"],aggfunc=[np.sum],fill_value=0)
 print (table)
 
@@ -87,9 +81,6 @@ with open('./reports/orwell_pivot_by_user_alt.html', 'w') as f:
 
 
 # pivot by user, date, user_state, hour
-df["user_state"] = df["user_state"].astype("category")
-df["user_state"].cat.set_categories(["ONLINE","OFFLINE"],inplace=True)
-
 table = pd.pivot_table(df.round(1),index=["username","log_datestamp",'user_state'],values=["connection_hrs"], columns=["log_timestamp"],aggfunc=[np.sum],fill_value=0)
 print (table)
 

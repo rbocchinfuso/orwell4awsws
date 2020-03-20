@@ -1,11 +1,11 @@
+# ignore commit.sh wrapper
+commit.sh
 # ignire ini files
 *.ini
 # ignore json files
 *.json
 # ignore csv files
 *.csv
-# ignore shell scripts
-*.sh
 # ignore bak files
 *.bak*
 # ignore html files

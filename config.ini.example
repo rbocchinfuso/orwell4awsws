@@ -2,6 +2,9 @@
 cycle_time = 300
 output_dir = /foo/bar/
 log_file = orwell4awsws_log
+# valid run modes:  dev | prod
+run_mode = dev
+
 
 [initalstate]
 bucket_name = xxxxxxxx
