@@ -12,14 +12,14 @@ Tooling to gather utilization data from AWS Workspaces via API, aggregate with p
 
 ## Prerequsites
 _Note: The way I like things, plenty of other options._
-- Minicond Python distro
-https://docs.conda.io/en/latest/miniconda.html
+- Minicond Python distro (https://docs.conda.io/en/latest/miniconda.html)
 - Nginx for publishing reports
+-- This is not an Nginx tutorial, but I suggest using fancy indexing which will likely require installing "nginx-extras".
 
 ## Optional
-- Initalstate account
-https://www.initialstate.com/
-
+- If you want to stream live data you will streaming you will need an Initalstate account (https://www.initialstate.com/)
+_Note: Again lots of option here, I am only providing the option I utilzed._
+![alt text](https://imgur.com/a/0hq6nz7 "orwell4awsws streaming dashboard")
 
 ## Installation 
 - Download code from GitHub
@@ -40,7 +40,7 @@ _Note:  If you don't have Git installed you can also just grab the zip: https://
 - Modify settings in config.ini
 _Note: Initialstate information only required if you want to use the ISStreamer to stream realtime connection data for connection visualization._
 - Configure the AWS CLI
-
+-- Not an AWS tutorial but you will need an IAM role with the appropriate access and 
 
 # Usage
 
