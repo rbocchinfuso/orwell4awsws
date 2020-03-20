@@ -20,7 +20,7 @@ _Note: The way I like things, plenty of other options and ways to do the same th
 - If you want to stream live data you will streaming you will need an Initalstate account (https://www.initialstate.com/)
 _Note: Again lots of option here, I am only providing the option I utilzed._
 
-![streamer dashboard](https://photos.app.goo.gl/C71bNHSLjHubxP3k7 "orwell4awsws streaming dashboard")
+![streamer dashboard](https://drive.google.com/uc?export=view&id=C71bNHSLjHubxP3k7 "orwell4awsws streaming dashboard")
 
 ## Installation 
 - Download code from GitHub
@@ -52,7 +52,8 @@ _Note: Initialstate information only required if you want to use the ISStreamer 
 `0 * * * * python [PATH]/orwell4awsws/orwellpivot.py > [PATH]orwell4awsws/orwellpivot.log 2>&1`
 
 ### Sample Reports Views
-![sample report](https://photos.app.goo.gl/qxaPJ76jbQYzgzUw9 "sample report views")
+
+![sample report](https://drive.google.com/uc?export=view&id=qxaPJ76jbQYzgzUw9 "sample report views")
 
 
 ## Todo
