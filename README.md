@@ -12,7 +12,7 @@ Big Brother tooling to gather user utilization/access data from AWS Workspaces v
 
 ## Prerequsites
 _Note: The way I like things, plenty of other options and ways to do the same thing._
-- Minicond Python distro (https://docs.conda.io/en/latest/miniconda.html)
+- Miniconda Python distro (https://docs.conda.io/en/latest/miniconda.html)
 - Nginx for publishing reports
 -- This is not an Nginx tutorial, but I suggest using fancy indexing which will likely require installing "nginx-extras".
 
