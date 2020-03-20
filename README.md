@@ -6,7 +6,7 @@
 
 
 ## Summary
-Tooling to gather utilization data from AWS Workspaces via API, aggregate with pandas and numpy and publish pivot reports showing user online and offline time in a variety of views.
+Big Brother tooling to gather user utilization/access data from AWS Workspaces via API, aggregate with pandas and numpy and publish pivot reports showing user online and offline time in a variety of views.
 
 # Getting Started
 
