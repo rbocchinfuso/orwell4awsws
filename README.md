@@ -20,7 +20,7 @@ _Note: The way I like things, plenty of other options and ways to do the same th
 - If you want to stream live data you will streaming you will need an Initalstate account (https://www.initialstate.com/)
 _Note: Again lots of option here, I am only providing the option I utilzed._
 
-![streamer dashboard](https://drive.google.com/uc?export=view&id=C71bNHSLjHubxP3k7 "orwell4awsws streaming dashboard")
+![streamer dashboard](https://www.amazon.com/photos/shared/AZ_nVrWTRLaa1TKhLaCNDw.Ygx9qCGPzZAn9pfA1AW4Uw "orwell4awsws streaming dashboard")
 
 ## Installation 
 - Download code from GitHub
@@ -53,7 +53,7 @@ _Note: Initialstate information only required if you want to use the ISStreamer 
 
 ### Sample Reports Views
 
-![sample report](https://drive.google.com/uc?export=view&id=qxaPJ76jbQYzgzUw9 "sample report views")
+![sample report](https://www.amazon.com/photos/shared/Yi8MMqTiRD25p-dB3gw88g.AX4N438I62GqJ3svZkxUkd "sample report views")
 
 
 ## Todo
