@@ -57,11 +57,13 @@ _Note: Initialstate information only required if you want to use the ISStreamer 
 
 ## Todo
 - Quick hack so general code cleanup is in order.
+- Integrate pivottablejs and qgrid for interactive data analysis.
 - Figure out how the heck to return more than 25 results from the Workspaces API so I can stop using the AWS CLI to grab JSON and start using boto3 and the AWS SDK.
 - Add logic for dev | test | prod and running in interactive or daemon mode.
 - Add matplotlib graphs.
 - Move from csv files to sqllite.
-- 
+- Cleanup documentation.
+- Whatever else comes to mind.
 
 ## Contributing
 
