@@ -1,23 +1,23 @@
-#!/bin/sh
+#!/bin/bash
+# title             orwell4awsws_init.sh
+# description:      service init script for orwell4awsws
+# author:           Rich Bocchinfuso
+# email:            rbocchinfuso@gmail.com
+# date:             20200319
+# version:          0.2.0    
+# usage:            bash orwell4awsws_init.sh [start|stop|restart|status]
+# default-start:    2 3 4 5
+# default-stop:     0 1 6
+#==============================================================================
 
-### BEGIN INIT INFO
-# Provides:          myservice
-# Required-Start:    $remote_fs $syslog
-# Required-Stop:     $remote_fs $syslog
-# Default-Start:     2 3 4 5
-# Default-Stop:      0 1 6
-# Short-Description: Put a short description of the service here
-# Description:       Put a long description of the service here
-### END INIT INFO
-
-# Change the next 3 lines to suit where you install your script and what you want to call it
+# change to suit your install
 USER="bocchrj"
 USER_HOME="/home/$USER"
 DAEMON_NAME="orwell4awsws"
 ORWELL_ROOT="$USER_HOME/$DAEMON_NAME"
 DAEMON="$ORWELL_ROOT/$DAEMON_NAME.py"
 
-# The process ID of the script when it runs is stored here:
+# the process ID of the script when it runs is stored here:
 PIDFILE="$ORWELL_ROOT/$DAEMON_NAME.pid"
 
 . /lib/lsb/init-functions
@@ -46,7 +46,6 @@ case "$1" in
 
     status)
         status_of_proc -p $PIDFILE "$DAEMON_NAME" $DAEMON_NAME && exit 0 || exit $?
-        #status_of_proc "$DAEMON_NAME" "$DAEMON_NAME" && exit 0 || exit $?
         ;;
 
     *)

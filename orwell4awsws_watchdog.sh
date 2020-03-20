@@ -1,9 +1,18 @@
 #!/bin/bash
+# title             orwell4awsws_watchdog.sh
+# description:      service init script for orwell4awsws
+# author:           Rich Bocchinfuso
+# email:            rbocchinfuso@gmail.com
+# date:             20200319
+# version:          0.2.0    
+# usage:            bash orwell4awsws_watchdog.sh
+    # add to crontab
+    # */5 * * * * ~/orwell4awsws_watchdog.sh bocchibot 2>&1 | /usr/bin/logger -t hubotAlive
+# default-start:    2 3 4 5
+# default-stop:     0 1 6
+#==============================================================================
 
-# Add to crontab
-#*/5 * * * * ~/orwell4awsws_watchdog.sh bocchibot 2>&1 | /usr/bin/logger -t hubotAlive
-
-# Change to suit where you install your script and what you want to call it
+# change to suit your install
 DAEMON_USER="bocchrj"
 USER_HOME="/home/$DAEMON_USER"
 DAEMON_NAME="orwell4awsws"
