@@ -26,7 +26,8 @@ https://www.initialstate.com/
 ```
 git clone https://github.com/rbocchinfuso/orwell4awsws.git
 ```
-- Note:  If you don't have Git installed you can also just grab the zip: https://github.com/rbocchinfuso/orwell4awsws/archive/master.zip
+_Note:  If you don't have Git installed you can also just grab the zip: https://github.com/rbocchinfuso/orwell4awsws/archive/master.zip_
+
 - Make sure the orwell4awsws dir and files have proper ownership and permissions
 - Install miniconda
 - Create env
@@ -44,10 +45,10 @@ _Note: Initialstate information only required if you want to use the ISStreamer 
 # Usage
 
 ## Run
-nohup python orwell4awsws.py >/dev/null 2>&1 &
+`nohup python orwell4awsws.py >/dev/null 2>&1 &`
 
 ## Report generation cron job
-0 * * * * python [PATH]/orwell4awsws/orwellpivot.py > [PATH]orwell4awsws/orwellpivot.log 2>&1
+`0 * * * * python [PATH]/orwell4awsws/orwellpivot.py > [PATH]orwell4awsws/orwellpivot.log 2>&1`
 
 
 ## Contributing
