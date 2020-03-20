@@ -19,6 +19,7 @@ _Note: The way I like things, plenty of other options._
 ## Optional
 - If you want to stream live data you will streaming you will need an Initalstate account (https://www.initialstate.com/)
 _Note: Again lots of option here, I am only providing the option I utilzed._
+
 ![alt text](https://imgur.com/a/0hq6nz7 "orwell4awsws streaming dashboard")
 
 ## Installation 
