@@ -43,9 +43,9 @@ all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
 combined_csv = pd.concat([pd.read_csv(f) for f in all_filenames ])
 
 # export to csv
-combined_csv.to_csv( "all_data.csv", index=False, encoding='utf-8-sig')
+combined_csv.to_csv( "../tmp/tmp_all_data.csv", index=False, encoding='utf-8-sig')
 
-df = pd.read_csv("all_data.csv").astype({"connection_hrs":float})
+df = pd.read_csv("../tmp/tmp_all_data.csv").astype({"connection_hrs":float})
 df.head()
 print (df)
 

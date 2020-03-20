@@ -1,10 +1,11 @@
 [local]
 cycle_time = 300
-output_dir = /foo/bar/
+app_dir = /foo/bar/app
+output_dir = /foo/bar/app/output
 log_file = orwell4awsws_log
-# valid run modes:  dev | prod
+pid_file = orwell4awsws.pid
+# valid run modes:  dev | test | prod
 run_mode = dev
-
 
 [initalstate]
 bucket_name = xxxxxxxx

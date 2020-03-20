@@ -7,3 +7,4 @@ ISStreamer
 tqdm
 numpy
 pandas
+daemonize

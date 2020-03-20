@@ -10,3 +10,7 @@ commit.sh
 *.bak*
 # ignore html files
 *.html
+# ignore pid files
+*.pid
+# ignore tmp files
+*tmp*
