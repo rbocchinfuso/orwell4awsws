@@ -7,5 +7,4 @@ print (df)
 
 
 from pivottablejs import pivot_ui
-pivot_ui(df,outfile_path='./output/ipivottablejs.html')
-HTML('./output/pivottablejs.html')
+pivot_ui(df,outfile_path='./output/reports/!ipivottablejs.html')
