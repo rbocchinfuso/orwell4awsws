@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 import os
 import glob
-import pandas as pd
 
 # owned
 __author__ = 'Rich Bocchinfuso'

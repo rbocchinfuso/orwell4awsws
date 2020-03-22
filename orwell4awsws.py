@@ -145,3 +145,4 @@ if __name__ == "__main__":
 
     daemon = Daemonize(app="orwell4awsws", pid=config['local']['pid_file'], action=main, chdir=config['local']['app_dir'])
     daemon.start()
+    
